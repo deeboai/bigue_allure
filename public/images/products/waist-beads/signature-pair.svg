@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="1066" viewBox="0 0 800 1066" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="64" y1="84" x2="734" y2="992" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F1E7DC" />
+      <stop offset="1" stop-color="#DECAB4" />
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(392 352) rotate(90) scale(460 360)">
+      <stop stop-color="#FFF8EF" stop-opacity="0.92" />
+      <stop offset="1" stop-color="#FFF8EF" stop-opacity="0" />
+    </radialGradient>
+    <filter id="shadow" x="0" y="0" width="800" height="1066" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#8D7156" flood-opacity="0.18" />
+    </filter>
+  </defs>
+  <rect width="800" height="1066" rx="28" fill="url(#bg)" />
+  <rect x="88" y="88" width="624" height="890" rx="30" fill="rgba(255,255,255,0.22)" stroke="rgba(255,255,255,0.22)" />
+  <rect x="116" y="118" width="568" height="834" rx="24" fill="url(#glow)" />
+  <g filter="url(#shadow)">
+    <ellipse cx="406" cy="404" rx="208" ry="100" transform="rotate(-10 406 404)" fill="none" stroke="#B61919" stroke-width="24" stroke-dasharray="1 16" stroke-linecap="round" />
+    <ellipse cx="386" cy="550" rx="244" ry="114" transform="rotate(8 386 550)" fill="none" stroke="#E5C33A" stroke-width="24" stroke-dasharray="1 16" stroke-linecap="round" />
+    <ellipse cx="426" cy="704" rx="222" ry="100" transform="rotate(-7 426 704)" fill="none" stroke="#6B39B5" stroke-width="24" stroke-dasharray="1 16" stroke-linecap="round" />
+    <path d="M430 804C476 792 520 792 566 824" stroke="#4E8C58" stroke-width="22" stroke-dasharray="1 16" stroke-linecap="round" fill="none" />
+  </g>
+</svg>
